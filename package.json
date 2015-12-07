@@ -1,0 +1,36 @@
+{
+  "name": "bumper",
+  "version": "1.0.0",
+  "description": "RESTful API for Bumper App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BumperApp/server.git"
+  },
+  "author": "Armin Khoshbin <armin.khoshbin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BumperApp/server/issues"
+  },
+  "homepage": "https://github.com/trjstewart/bumper#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "forever": "^0.15.1",
+    "geolib": "^2.0.18",
+    "hash-anything": "^1.0.4",
+    "http": "0.0.0",
+    "ionic-push-server": "^1.0.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.2.8",
+    "request": "^2.67.0",
+    "uniques": "0.0.1",
+    "util": "^0.10.3"
+  }
+}
